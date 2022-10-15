@@ -1,0 +1,12 @@
+<html xmlns:th="http://www.thymeleaf.org/">
+
+<body>
+	<form th:action="@{/saveStudent}" th:object="${Student}"> 
+		Name: <input type="text" th:field="*{name}" />
+		Score: <input type="text" th:field="*{score}" />
+		<input type="submit" value="submit" />
+		<input type="reset" value="reset" />
+	</form>
+</body>
+
+</html>
