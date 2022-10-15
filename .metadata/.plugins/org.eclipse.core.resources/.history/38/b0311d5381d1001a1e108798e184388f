@@ -1,0 +1,5 @@
+package com.ibm.SpringBoot03.controller;
+
+public class HelloController {
+
+}
